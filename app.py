@@ -7,8 +7,8 @@ from pptx import Presentation
 import io
 
 # --- ページ設定 ---
-st.set_page_config(page_title="マイリサーチAI", layout="wide")
-st.title("🧠 マイ・NotebookLM ＆ リサーチAI")
+st.set_page_config(page_title="NotebookRK", layout="wide")
+st.title("NotebookRK")
 st.write("PDFの要約、クイズ作成、Google検索、そしてWord・PowerPointの自動生成ができます。")
 
 # --- セッション情報の保存（画面が更新されてもデータを消さない仕組み） ---
